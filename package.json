@@ -8,6 +8,7 @@
     "build:prod": "ng build --configuration production --base-href /angular-h2/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "lint": "ng lint"
   },
   "private": true,
